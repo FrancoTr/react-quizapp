@@ -4,6 +4,8 @@ import { fetchQuizQuestions, Question } from "./API";
 import QuestionCard from "./components/QuestionCard";
 // Types
 import { QuestionState, Difficulty } from "./API";
+// Styles
+import { GlobalStyle } from "./App.styles";
 
 export type AnswerObject = {
   question: string;
